@@ -1,0 +1,20 @@
+#justificacion
+
+
+a. ¿Cuáles son las variables principales de tu solución y cuál es su propósito? 
+R/
+lanzamientos = 15
+lanzamientosAcidalia = 0
+lanzamientosElysium = 0
+lanzamientosUtopia = 0
+
+Estas son mis variables principales y tienen como proposito tener en cuenta el total de lanzamientos y las planicies a las cuales se les hacen los lanzamientos
+
+b. ¿Si la repetición se quiere hacer con el ciclo “for”, cómo se puede garantizar que la variable de control del ciclo no avance cuando el usuario se equivoca al ingresar un dato? 
+R/Tendria que ser for i in range(0, 10001), debido a que siempre que hacemos un codigo con este ciclo, el ciclo al tomar el valor le reduce una unidad.
+
+c. ¿Describe cómo sería posible reemplazar hacer un control de excepciones con  otro método para prevenir el error de división por cero?
+R/Yo lo haría haciendo uso del ZeroDivisionError
+ 
+d. ¿Qué implicaciones tendría en tu programa incluir la fuente dos planicies  adicionales?
+R/Tendria que poner 2 variables mas para poder incliur 2 planicies mas y agregarle otras 2 variables al ciclo while
